@@ -1,0 +1,74 @@
+.hotelGo{
+    position: sticky;
+    top: calc(0% + 85px);
+    z-index: 1;
+    max-width: calc(100% + 16px);
+    overflow-x: scroll;
+    padding-left: 1rem;
+}
+.hotelGo::-webkit-scrollbar{
+    display: none;
+}
+.scroll_none::-webkit-scrollbar{
+    display: none;
+}
+.filter_apply{
+    text-transform: none !important;
+    background:linear-gradient(180deg, #F23844 0%, #BC0000 100%)!important;
+    color: white !important;
+    padding: 0.4rem 3.5rem !important;
+    border-radius: 0.7rem !important;
+}
+
+.hotelRating{
+    font-size: 14px;
+    font-weight: 500;
+    color: #F23844;
+    font-family: "Poppins", sans-serif;
+}
+.hotelDescription{
+    font-size: 14px;
+    color: #303030;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.hotelLocation{
+    font-size: 14px;
+    color: #303030;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.hotelMapBook_now{
+    border: none;
+    background-color: #F23844;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    width: 117.44px;
+    height: 42px;
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* media querys */
+@media (max-width:899px){
+    .hotelGo{
+        top: 0%;
+        padding-left: 0rem;
+        margin-left: 1rem;
+        max-width: calc(100% - 16px);
+    }
+}
+@media (max-width:599px){
+    .hotelRating,.hotelDescription,.hotelLocation{
+        font-size: 12px;
+    }
+    .hotelMapBook_now{
+        width: 95.44px;
+        height: 33px;
+    }
+    .hotelRatingStars img{
+        width: 12px;
+    }
+}

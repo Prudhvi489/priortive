@@ -1,0 +1,759 @@
+:root {
+  --goPrimaryColor: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+  --goSecondaryColor: #dff3ff;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+.text-t-cap{
+  text-transform: capitalize;
+}
+.bg-p {
+  background-color: var(--goPrimaryColor) !important;
+}
+
+.bg-newcoupen {
+  background-color: var(--goPrimaryColor) !important;
+  padding: 9px !important;
+  border-radius: 15px !important;
+}
+
+.bg-inquiry {
+  background: linear-gradient(116.32deg, linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ -5.88%, #046FB1 111.84%);
+  border-radius: 1rem !important;
+
+}
+
+.bg-submit {
+  background-color: var(--goPrimaryColor) !important;
+  width: 50%;
+  padding: 10px !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  border-radius: 8px !important;
+}
+
+.details {
+  font-weight: 500 !important;
+  color: rgba(48, 48, 48, 1);
+  font-size: 18px !important;
+}
+
+.c-p {
+  color: var(--goPrimaryColor) !important;
+}
+
+.c-000 {
+  color: #000;
+}
+
+/* flex styles */
+.makeFlex {
+  display: flex;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.justifyStart {
+  justify-content: start;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyEven {
+  justify-content: space-evenly;
+}
+
+.color-p {
+  color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+}
+
+/* text styles */
+.textCenter {
+  text-align: center;
+}
+
+.p-e-none {
+  pointer-events: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* font weights */
+.f-w-500 {
+  font-weight: 500;
+}
+
+.f-w-700 {
+  font-weight: 700;
+
+}
+
+.goRegularFont {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+}
+
+.goBusSelectSeat {
+  color: #fff !important;
+  border: none !important;
+  background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ !important;
+  padding: 1rem 3.1rem 1.1rem 2.4rem !important;
+  border-bottom-right-radius: 0.4rem !important;
+  font-size: 14px;
+}
+
+.goBusOveralRatingForBus {
+  background: var(--goPrimaryColor);
+  padding: 10px 4px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+span.goSlash {
+  font-size: 21px;
+}
+
+span.goDenominator {
+  font-size: 18px;
+}
+
+.goNumeratorRat {
+  font-size: 24px;
+}
+
+.goBusBoardingPoint {
+  color: var(--goPrimaryColor);
+  font-size: 15px;
+  margin-bottom: 8px;
+  text-align: justify;
+  padding-left: 5px;
+  /* cursor: pointer; */
+  font-weight: 500;
+}
+
+.goBusBoardingDiv {
+  border: 1px solid var(--goPrimaryColor);
+  width: 45%;
+  /* margin-right: 15px !important; */
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.goBusBoardingDiv1 {
+  border: 1px solid var(--goPrimaryColor);
+  width: 45%;
+  /* margin-right: 15px !important; */
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.goSlectPickUp li {
+  cursor: pointer;
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #e7e7e7;
+  font-size: 12px;
+}
+
+/* .goBoardTime {
+  font-size: 12px;
+} */
+.goSlectPickUp li.selected {
+  background-color: var(--goPrimaryColor);
+  color: #fff;
+  font-weight: 600;
+}
+
+.goSlectPickUp li:hover:not(.selected) {
+  background-color: #eaf5ff;
+}
+
+.goSlectPickUp {
+  overflow-y: scroll;
+  height: 300px;
+  /* width: 130px; */
+  /* overflow: hidden; */
+}
+
+.goSlectPickUp::-webkit-scrollbar {
+  width: 0.1em;
+  background-color: #F5F5F5;
+}
+
+.goSlectPickUp::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+.pricesFilterBtn {
+  padding: 5px 15px;
+  background: var(--goSecondaryColor);
+  border-radius: 7px;
+  color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+  margin-right: 10px;
+}
+
+.userSelectedFilter {
+  background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ !important;
+  color: #fff !important;
+}
+
+.busLayout {
+  border: 1px solid var(--goPrimaryColor);
+  margin-bottom: 10px;
+  border-radius: 13px;
+  padding: 10px;
+  display: flex;
+  min-width: 85%;
+}
+
+.userSelectedSeat {
+  filter: invert(546%) sepia(308%) saturate(662%) hue-rotate(180deg) brightness(95%) contrast(101%);
+}
+
+.goBusErrorMsg {
+  color: red;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.selectedSeatNames {
+  color: var(--goPrimaryColor);
+  font-weight: 600;
+}
+
+table.tablesClass {
+  width: 100%;
+}
+
+.tablesClass td,
+.tablesClass th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 8px;
+}
+
+.travellerCard {
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.errortravellerCard {
+  border: 1px solid red;
+
+}
+
+.my-swal-toast-container {
+  z-index: 9999;
+  /* Set a high z-index value */
+}
+
+.busStartBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dividerBlock {
+  padding: 0 1px;
+}
+
+.SelectedPriceFilter {
+  background-color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+  color: #fff;
+}
+
+.filterSeatsNoEvents {
+  pointer-events: none;
+}
+
+.filterSeatsNoEvents img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  display: none;
+}
+
+.goAdminToolBar {
+  justify-content: end;
+  box-shadow: none !important;
+  background-color: #fff;
+}
+
+/* Paginations styles */
+.mainPageCont {
+  display: flex;
+}
+
+.mainPageCont li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.activeClassName {
+  border-bottom: 3px solid var(--goPrimaryColor);
+  background-color: #dddddd;
+}
+
+.pageClassName {
+  color: var(--goPrimaryColor);
+}
+
+.previous,
+.next {
+  color: var(--goPrimaryColor);
+}
+
+.DateRangePicker_picker {
+  z-index: 99999 !important;
+}
+
+.sideNavLink {
+  text-decoration: none;
+  color: var(--goPrimaryColor);
+}
+
+.sideNavLink.active li {
+  /* background-color: var(--goPrimaryColor); */
+  color: #fff;
+  background: linear-gradient(90deg, linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ 39.74%, rgba(0, 53, 86, 0) 100%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.amenitiesForBus {
+  font-size: 16px;
+  color: #5dbe4a;
+  border: 1px solid #5dbe4a;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+/* .busTextRotate{
+  display: inline-block;
+     transform: rotate(-90deg);
+     transform-origin: left;
+     white-space: nowrap;
+color: var(--goPrimaryColor);
+font-weight: 600;
+} */
+.goBusButton {
+  color: #eee;
+  background: var(--goPrimaryColor) !important;
+  text-transform: none !important;
+}
+
+.goBusButton:disabled {
+  /* background: #d1cece !important; */
+  /* color: #a39d9d !important;  */
+  background-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.goBusBerthInd {
+  color: var(--goPrimaryColor);
+  font-weight: 600;
+  text-align: center;
+}
+
+.activeBookItem {
+  border: 2px solid linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cursor-p {
+  cursor: pointer;
+  
+}
+.cursor-p1 {
+  cursor: pointer;
+  width: 100%;
+  height: 280px;
+}
+.relativeposition{
+  position: relative;
+}
+.absoluteposition{
+  position: absolute;
+  position: absolute;
+  top: 83%;
+  left: 7%;
+  color: white;
+  font-weight: bold;
+}
+li.next.disabled {}
+
+li.previous.disabled {}
+
+/* ADMIN TABLES  LIST*/
+
+table.adminTable thead th,
+table.adminTable tbody tr td {
+  border-left: 1px solid #777777;
+}
+
+table.adminTable {
+  /* border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 25px; */
+}
+
+table.adminTable thead th {
+  background: var(--goPrimaryColor);
+  color: #fff;
+  font-weight: 500;
+}
+
+.adminTableContainer {
+  border-radius: 25px;
+  border: 1px solid #000;
+}
+.adminTableContainer1 {
+  border-radius:  0px 25px 25px 25px;
+  border: 1px solid #000;
+}
+/* ADMIN TABLES  LIST*/
+.adminBreadCrum {
+  color: var(--goPrimaryColor);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+button:disabled {
+  /* background-color: rgba(0, 0, 0, 0.12) !important; */
+}
+
+.adminCoupounsUsersSpan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminCoupounsUsersSpan p {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.goAdminErrorMessages,.MuiFormHelperText-sizeSmall {
+  color: red !important;
+  font-size: 14px !important
+}
+
+.iAmSelectedByAdmin {
+  border: 2px solid var(--goPrimaryColor);
+  border-style: dashed;
+  padding: 2px;
+  border-radius: 5px;
+  background-image: url('../images/correct.svg');
+  background-repeat: no-repeat;
+}
+
+/* ADMIN SELECTED USERS STYLE */
+.iAmSelectedByAdmin p {
+  color: var(--goPrimaryColor) !important;
+  font-weight: 900 !important;
+}
+
+#notistack-snackbar svg {
+  display: none !important;
+}
+
+.seatsToSelect {
+  cursor: pointer;
+  z-index: 140;
+}
+
+.busPricesToolTipStyles {
+  font-weight: 700 !important;
+  /* color: var(--goPrimaryColor) !important; */
+  font-size: 14px !important;
+}
+
+.bookingCancelHead {
+  color: var(--goPrimaryColor);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Animation for swapping input values */
+@keyframes swapAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Add animation class to button when clicked */
+/* .animated {
+  animation: swapAnimation 1s ease;
+} */
+/* Animation for swapping input values */
+/* @keyframes swapButtonAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  75% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
+/* Apply the animation to the button when clicked */
+/* .animated {
+  animation: swapButtonAnimation 0.5s ease;
+} */
+/* Animation for swapping input values */
+@keyframes rotateButtonAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+/* Apply the animation to the button when clicked */
+.animated {
+  animation: rotateButtonAnimation 1s linear;
+}
+
+ul.mainPageCont li.previous.disabled,
+ul.mainPageCont li.next.disabled {
+  color: #b3b2b2;
+  cursor: not-allowed;
+}
+
+.busToolTip {
+  z-index: 999999 !important;
+}
+
+.styled-span {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  /* color: blue; */
+  word-break: break-all;
+}
+
+.styled-span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -6px;
+  width: 5px;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.issue-content {
+  padding: 10px;
+  min-width: 835px;
+  min-height: 50px;
+}
+
+.issue-date {
+  font-size: 12px;
+  color: #000;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.styled-span.resolved::before {
+  background-color: #5dbe4a;
+}
+
+.styled-span.notResolved::before {
+  background-color: red;
+}
+
+.raise-issue-textbox {
+
+  padding: 5px;
+  /* position: fixed; */
+  width: -webkit-fill-available;
+  /* bottom: 0; */
+  background: #ffffff;
+
+}
+
+/* admin tours style */
+.customCardHeader .MuiCardHeader-subheader {
+  color: var(--goPrimaryColor);
+}
+
+.customCardHeader {
+  padding: 10px;
+}
+
+.busUpperBerth {
+  writing-mode: vertical-lr;
+  /* text-orientation: upright;  */
+  white-space: nowrap;
+  transform-origin: 50% 50%;
+  transform: rotate(-180deg);
+  font-size: 16px;
+  color: var(--goPrimaryColor);
+  font-weight: 600;
+}
+
+.coupounTextClass {
+  font-weight: 500;
+  color: #3F8CFF;
+  cursor: pointer;
+}
+
+.hover-container {
+  position: relative;
+  /* display: inline-block; */
+  cursor: pointer;
+}
+
+.hover-content {
+  padding-top: 7px;
+  padding-right: 7px;
+  position: absolute;
+  right: 0;
+  top: 90px;
+  display: none;
+  /* z-index: 1400; */
+}
+
+.hover-container:hover .hover-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hover-container:hover {
+  /* opacity: .7; */
+  background-color: #eeeeee;
+}
+
+.ActiveMenuBook {
+  background-color: var(--goPrimaryColor) !important;
+  color: var(--goSecondaryColor) !important;
+  border-radius: 3px !important;
+  font-weight: 700;
+}
+
+.packageNameGo {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+@media (min-width:200px) and (max-width:400px) {
+  .absoluteposition{
+    top: 70%;
+    left: 15%;
+  }
+  .cursor-p1 {
+    cursor: pointer;
+    width:90%;
+    height: 130px;
+    margin: 15px;
+  }
+}
+@media (min-width:401px) and (max-width: 750px) {
+  .absoluteposition{
+    top: 75%;
+    left: 10%;
+  }
+  .cursor-p1 {
+    cursor: pointer;
+    width:90%;
+    height: 180px;
+    margin: 15px;
+  }
+}
+@media (min-width:751px) and (max-width: 999px) {
+  .cursor-p1 {
+    cursor: pointer;
+    width:90%;
+    height: 250px;
+    margin: 15px;
+  }
+}
+.text-eclipsis{
+  text-align: center;
+  width: 90px;
+  /* border: 1px solid; */
+  /* padding: 2px 5px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.footerNavLink{
+  color: #fff;
+  text-decoration: none;
+}

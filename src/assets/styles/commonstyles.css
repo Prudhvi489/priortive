@@ -1,0 +1,424 @@
+/** Variables css*/
+body{
+  --goPrimaryColor:linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+  --goSecondaryColor:#DFF3FF;
+}
+/* used to remove the carousel dots in afterflight search dates carousel */
+.rec.rec-dot {
+    display: none;
+  }
+/* Flight booking input box customization */
+.fs-12{
+  font-size: 12px;
+}
+.calendarStyles::-webkit-calendar-picker-indicator{
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+    position: absolute;
+    width:'100%!important';
+    /* top: 0%; */
+    /* left: 0%; */
+    /* right:0%; */
+}
+.calendarStyles[type="date"]::-webkit-calendar-picker-indicator {
+  width: 100%;
+}
+.profileDialog{
+  height: fit-content;
+  overflow-y: scroll;
+}
+  /* width */
+  .profileDialog::-webkit-scrollbar {
+  width: 0px!important;
+}
+
+/* Track */
+.profileDialog::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+!important; 
+  border-radius: 0!important;
+}
+ 
+/* Handle */
+.profileDialog::-webkit-scrollbar-thumb {
+  background: gray!important; 
+  border-radius: 0!important;
+}
+
+/* Handle on hover */
+.profileDialog::-webkit-scrollbar-thumb:hover {
+  background: gray!important; 
+}
+
+/* titlebold */
+.titlebold{
+  color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+  font-weight: 500;
+}
+
+/* edit icon */
+.editicon{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 55%;
+  right: -5%;
+  cursor: pointer;
+}
+.editicontraveller{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 70%;
+  right: -6%;
+  cursor: pointer;
+}
+/* text color */
+.textcolo {
+  color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+  font-weight: bold !important;
+}
+/* multi accordian float */
+.accordionPosition{
+  position: fixed !important;
+  bottom:0;
+  width: 63.2vw;
+  /* transition-timing-function: linear !important; */
+  background-color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+!important;
+}
+.multicityflightinfo{
+  background-color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+!important;
+}
+
+.expand{
+  top: 50%;
+}
+
+/* side nav image */
+
+.sidenavImageContainer{
+  justify-content: center;
+  padding: 1.5rem 0rem;
+  background-color:rgba(0, 53, 87, 0.2);
+}
+.sidenavImage{
+  width: 150px !important;
+  height: 150px !important;
+}
+.sidenavImage_noUser{
+  background-color: white !important;
+}
+.sidenavImage_noUser svg{
+  color: #303030;
+}
+.sidenavUsername{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.busesDatePickBtns{
+color: var(--goPrimaryColor);
+cursor: pointer;
+border-radius: 4px;
+background-color: var(--goSecondaryColor);
+padding: 1px 10px 1px 10px;
+font-size: 13px;
+}
+.busesDatePickBtns.active{
+  background-color: var(--goPrimaryColor) !important;
+  color: #fff;
+  font-weight: 600;
+}
+#dateInputTag{
+  min-width: 90px !important;
+}
+/* styles by naveen */
+.btnstyle{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: white;
+  font-Weight:600;
+  border: none;
+  color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+}
+.after-search-text-size{
+  font-size: 16px;
+}
+.imgsize{
+  width: 100%;
+}
+.bgwhite{
+  background-color: #fff !important;
+}
+@media (max-width:350px) {
+  .busesDatePickBtns{
+    padding: 1px;
+  }
+  #dateInputTag{
+    min-width: 32%!important;
+    font-size: 9px;
+  }
+  .dialog-center{
+    width: 100%;
+    padding: 0px !important;
+  }
+  .scroll-bar{
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+  .traveller-icon-center{
+    margin-top: 7px !important;
+  }
+  .traveller-text-center{
+        padding: 0px !important;
+        margin-right: 50px !important;
+  }
+  .travellercenter{
+    flex-wrap: nowrap !important;
+  }
+  .display-none{
+    display: initial !important;
+  }
+  .imagespace{
+    padding-left: 4px;
+  }
+  .imgsize{
+    width:115px;
+  }
+  .after-search-text-size{
+    font-size:9px !important;
+    text-align: center;
+    /* justify-content: space-between; */
+  }
+  .space-between{
+    justify-content: space-between !important;
+  }
+  .image-responsive{
+    width: 100%;
+  }
+  .background_transparent{
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .accordionPosition{
+    width: 100%;
+    margin-left: 0px !important;
+    border-radius: 0px !important;
+    background-color: #fff !important;
+  }
+  .btnstyle{
+    color: #fff;
+    background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    padding: 15px 30px  ;
+  }
+  .textcolor{
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ !important;
+  }
+}
+@media (min-width:351px) and (max-width:375px) {
+  .busesDatePickBtns{
+    padding: 1px;
+  }
+  .dialog-center{
+    width: 100%;
+    padding: 0px !important;
+  }
+  .scroll-bar{
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+  .traveller-icon-center{
+    margin-top: 7px !important;
+  }
+  
+  /* .display-none{
+  
+    display: initial !important;
+  } */
+  .imagespace{
+    padding-left: 4px;
+  }
+  .imgsize{
+    width:115px;
+  }
+  .after-search-text-size{
+    font-size:10px !important;
+    /* justify-content: space-between; */
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  .image-responsive{
+    width: 100%;
+  }
+  .background_transparent{
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .accordionPosition{
+    width: 100%;
+    margin-left: 0px !important;
+    border-radius: 0px !important;
+    background-color: #fff !important;
+  }
+  .btnstyle{
+    color: #fff;
+    background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    padding: 15px 30px  ;
+  }
+  .textcolor{
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ !important;
+  }
+}
+@media (min-width:376px) and (max-width:599px) {
+  .dialog-center{
+    width: 100%;
+    padding: 0px !important;
+  }
+  .scroll-bar{
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+  .traveller-icon-center{
+    margin-top: 7px !important;
+  }
+  
+  /* .display-none{
+  
+    display: initial !important;
+  } */
+  .imagespace{
+    padding-left: 4px;
+  }
+  .imgsize{
+    width:115px;
+  }
+  .after-search-text-size{
+    font-size:10px !important;
+    /* justify-content: space-between; */
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  .image-responsive{
+    width: 100%;
+  }
+  .background_transparent{
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .accordionPosition{
+    width: 100%;
+    margin-left: 0px !important;
+    border-radius: 0px !important;
+    background-color: #fff !important;
+  }
+  .btnstyle{
+    color: #fff;
+    background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    padding: 15px 30px  ;
+  }
+  .textcolor{
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ !important;
+  }
+}
+@media (min-width:600px) and (max-width:899px){
+  .scroll-bar{
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+  .traveller-icon-center{
+    margin-top: 7px !important;
+  }
+  /* .display-none{
+    
+    display: initial !important;
+  } */
+  .imagespace{
+    padding-left: 16px;
+  }
+  .after-search-text-size{
+    font-size:14px;
+    /* justify-content: space-between; */
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  .image-responsive{
+    width: 100%;
+    /* align-items: center; */
+  }
+  .space-center{
+    justify-content: center;
+  }
+  .background_transparent{
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .accordionPosition{
+    width: 100%;
+    margin-left: -0.5rem !important;
+    border-radius: 0px !important;
+    background-color: #fff !important;
+  }
+  .btnstyle{
+    color: #fff;
+    background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+  }
+  .textcolor{
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+ !important;
+  }
+}
+@media (min-width:900px) and (max-width:1024px) {
+  #dateInputTag{
+    font-size: 13px;
+  }
+  .accordionPosition{
+    width:62.6%;
+  }
+  .busesDatePickBtns{
+    padding: 1px 5px 1px 5px;
+  }
+}
+@media (min-width:1025px) and (max-width:1600px) {
+  .accordionPosition{
+    width:62.6%;
+  }
+} 
+@media (min-width:1601px) and (max-width:1925px) {
+  .accordionPosition{
+    width:50.8%;
+  }
+} 
+/* eneded here */

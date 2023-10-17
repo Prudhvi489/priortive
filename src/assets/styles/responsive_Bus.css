@@ -1,0 +1,139 @@
+.mtcard{
+    margin-top: 20px;
+}
+.cardpadding{
+    padding: 24px 0px !important;
+}
+.textcenter{
+    /* margin-left: 5.25rem; */
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    font-weight: 500;
+}
+.bgoffer{
+    border-radius: 5px;
+    background-color: #DFF3FF;
+    padding: 0px 10px;
+    display: inline-flex;
+    align-items: center;
+}
+.texthg{
+    font-size: 10px;
+    padding: 0px;
+}
+.textcoupon{
+    font-size: 14px;
+}
+.textcoupon1{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 1rem;
+}
+.texthead{
+    font-size: 18px;
+}
+.bgcoupon{
+    background-color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    color: #FFFF;
+}
+.scroll_none1::-webkit-scrollbar{
+    display: none;
+}
+.mto{
+    margin-top: 0px !important;
+}
+.grid-width{
+    width: 215px;
+}
+@media (min-width:1056px) and (max-width:1940px) {
+    #containerpadding{
+        padding-left: 0px !important;
+        /* padding-right: 0px !important; */
+    }
+}
+@media (min-width:900px) and (max-width:1055px) {
+    .mtcard {
+        margin-top: 0px;
+    }
+    #containerpadding{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+@media (min-width:600px) and (max-width:899px) {
+    .busLayout{
+        width: 96%;
+        }
+    .btnsize{
+        width: 93% !important;
+        margin-bottom: 2rem;
+    }
+    .goBusBoardingDiv{
+        width: 49%!important;
+    }
+   
+    /* .rotateimg{
+        transform: rotate(90deg) !important;
+    } */
+}
+@media (min-width:375px) and (max-width:599px) {
+    .goBusSelectSeat{
+        padding: 1rem 0.5rem 1rem 0.5rem !important;
+    }
+    /* .textcenter{
+        margin-left: 3.25rem;
+    } */
+    .sizetext{
+        font-size: 14px;
+    }
+    .busLayout{
+        width: 93%;
+        }
+    .goBusBoardingDiv{
+        width: 48%!important;
+    }
+    /* .rotateimg{
+        transform: rotate(90deg) !important;
+    } */
+    .css-zgbp5c-MuiStack-root{
+        font-size: 14px;
+    }
+    .css-1nvqdab-MuiStack-root{
+        font-size: 14px;
+    }
+}
+@media (max-width:374px) {
+    .goBusSelectSeat{
+        padding: 1rem 0.5rem 1rem 0.5rem !important;
+    }
+    /* .textcenter{
+        margin-left: 1.25rem;
+    } */
+    .sizetext{
+        font-size: 12px;
+    }
+    .busLayout{
+        width: 93%;
+        }
+    .btnsize{
+        width: 85% !important;
+        margin-bottom: 2rem;
+    }
+    .busesDatePickBtns{
+        font-size: 10px;
+    }
+    .goBusBoardingDiv{
+        width: 48%!important;
+    }
+    /* .rotateimg{
+        transform: rotate(90deg) !important;
+    } */
+    .css-zgbp5c-MuiStack-root{
+        font-size: 12px;
+    }
+    .css-1nvqdab-MuiStack-root{
+        font-size: 12px;
+    }
+}
+

@@ -1,0 +1,27 @@
+.PhoneInputInput {
+    border:1px solid #d0cccc;
+    height:40px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.PhoneInputCountry {
+    border:1px solid #d0cccc;
+    padding:5px;
+    border-radius: 5px;
+}
+.MuiInputBase-root{
+    border-radius: 10px !important;
+}
+.toggle-button{
+    color:#003556 !important
+}
+.toggle-button:active{
+    color: #fff !important;
+   
+}
+.Mui-selected .toggle-button{
+    color:#fff !important
+}
+.signup select:focus{
+    border:'red!important'
+}

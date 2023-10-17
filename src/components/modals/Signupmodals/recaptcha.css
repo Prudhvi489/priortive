@@ -1,0 +1,6 @@
+/* recaptcha.css */
+/* Adjust the height and width as per your requirement */
+.g-recaptcha {
+    transform: scale(0.22); /* Adjust the scale factor to control the height */
+    transform-origin: 0 0;
+  }

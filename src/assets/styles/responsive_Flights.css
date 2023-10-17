@@ -1,0 +1,166 @@
+/* class */
+
+/* flight search */
+.city_title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #303030;
+}
+.city_details{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #303030;
+    margin-top: 5px;
+}
+.res_details{
+    position: relative;
+    border: 1px solid linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    border-radius: 12px;
+}
+.res_details_type{
+    position: absolute;
+    top: -11%;
+    left: 3%;
+    background-color: #f0fcfc;
+    padding: 0px 5px;
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.rec.rec-swipable{
+    gap: .5rem;
+}
+#multiCity_accordion .MuiAccordionSummary-content{
+    margin: 0px;
+}
+.muiti_city_line_image{
+    width: 100%;
+}.back_arrow_icon{
+    margin-left: -10px !important;
+}
+/* tab_nav_moblie */
+/* .tab_nav_moblie_normal p{
+    margin: 0px;
+    text-align: center;
+    padding: 0.7rem 0rem;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.tab_nav_moblie_normal{
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.tab_nav_moblie_active{
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.tab_nav_moblie_active p{
+    margin: 0px;
+    text-align: center;
+    padding: 0.7rem 0rem;
+    border: 1px solid linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    border-radius: 8px;
+} */
+.tab_nav_moblie_active{
+    text-decoration: none;
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+}
+.tab_nav_moblie_normal{
+    text-decoration: none;
+    color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+}
+.tab_nav_moblie_normal p{
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 4px 0px;
+    margin: 0px;
+}
+.tab_nav_moblie_active p{
+    text-align: center;
+    border: 1px solid linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 4px 0px;
+    margin: 0px;
+}
+.flight_search_swapIcon{
+    position: absolute;
+    top: 25%;
+    left: 48%;
+}
+#tablistspace div{
+    justify-content: space-between;
+}
+
+/* media querys */
+
+/* flight icon */
+@media screen and (min-width:1px) and (max-width:899px) {
+    .image_sm{
+        width: 20px;
+    }
+    #OW_accordionSummary .MuiAccordionSummary-content{
+        margin: 0px;
+    }
+}
+@media screen and (max-width:375px){
+    .flight_size_xs{
+        width: 100%;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1300px){
+    .flight_size_xs{
+        width: 100%;
+    }
+}
+@media screen and (max-width:899px){
+    .muiti_flight_size_xs{
+        width: 100%;
+    }
+    .bookNow_travel_icon{
+        width: 3%;
+    }
+    .flight_search_swapIcon{
+        position: absolute;
+        top: 49.5%;
+        left: 50%;
+        transform: translate(-50%,-50%) rotate(90deg);
+    }
+}
+@media screen and (min-width:719px) and (max-width:899px) {
+    .non_stop_msg{
+        margin-top: 0.7rem !important;
+    }
+}
+@media screen and (max-width:480px) {
+    .bookNow_footer_text{
+        font-size: 11px;
+    }
+    .bookNow_travel_icon{
+        width: 6%;
+    }
+    .accordian_font_style_flights{
+        font-size: 12px !important;
+    }
+}
+/* flight tablist responsive */
+/* @media screen and (max-width:425px) {
+    #flight_tabFlex div{
+        justify-content: space-evenly;
+    }
+} */
