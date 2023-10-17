@@ -88,11 +88,11 @@ body{
   bottom:0;
   width: 63.2vw;
   /* transition-timing-function: linear !important; */
-  background-color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+  background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
 !important;
 }
 .multicityflightinfo{
-  background-color: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
+  background: linear-gradient(180deg, #F23844 0%, #BC0000 100%)
 !important;
 }
 

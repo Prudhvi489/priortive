@@ -733,7 +733,7 @@ const Multicity = () => {
                                             <TabList
                                               onChange={handlechange1}
                                               sx={{
-                                                background: "#DFF3FF",
+                                                background: styles.shade_color,
                                                 borderRadius: "1rem",
                                               }}
                                               aria-label="lab API tabs example"
@@ -1911,7 +1911,7 @@ const Multicity = () => {
                                     color: "#fff",
                                     fontSize: "14px",
                                     padding: "1rem 2.6rem 1rem 2rem",
-                                    backgroundColor: styles.app_color,
+                                    background: styles.app_color,
                                     borderBottomRightRadius: "0.8rem",
                                     fontWeight: "bold",
                                     fontSize: "0.8rem",

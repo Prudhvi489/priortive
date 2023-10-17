@@ -69,13 +69,13 @@ const makestyle = makeStyles({
     maxWidth:'fit-content !important',
     // backgroundColor:'#DFF3FF !important',
     borderRadius: "0.5rem !important",
-    color:`${styles.app_color} !important`,
+    color:`${styles.textcolor} !important`,
     boxShadow: '0px 0px 2px 0px #00000040',
   },
   tabs:{
     "& .MuiTab-root.Mui-selected": {
       color: "White !important",
-      backgroundColor: `${styles.app_color} !important`,
+      background: `${styles.app_color} !important`,
       borderRadius: "0.5rem",
       padding: "2px 5px 2px 5px",
     },
@@ -332,7 +332,7 @@ const AfterFlightsSearch = () => {
   const handleTabsChange = (event, newValue) => {
     setTabsValue(newValue);
   };
-  const styles = makestyle()
+  const styled = makestyle()
 
   return (
     <div>
@@ -384,11 +384,11 @@ const AfterFlightsSearch = () => {
               variant="scrollable"
               scrollButtons
               allowScrollButtonsMobile
-              className={styles.tabs}
+              className={styled.tabs}
             >
               {[1,2,3,4,5,6,7,8,9,10].map((data)=>{
                 return(
-                  <Tab key={data} value={data} label={<span>Mon,Dec {data} <br/> ₹ 3,200</span>} className={styles.tab}/>
+                  <Tab key={data} value={data} label={<span>Mon,Dec {data} <br/> ₹ 3,200</span>} className={styled.tab}/>
                 )
               })}
             </Tabs>
@@ -456,11 +456,11 @@ const AfterFlightsSearch = () => {
                       variant="scrollable"
                       scrollButtons
                       allowScrollButtonsMobile
-                      className={styles.tabs}
+                      className={styled.tabs}
                     >
                       {[1,2,3,4,5,6,7,8,9,10].map((data)=>{
                         return(
-                          <Tab key={data} value={data} label={<span>Mon,Dec {data} <br/> ₹ 3,200</span>} className={styles.tab}/>
+                          <Tab key={data} value={data} label={<span>Mon,Dec {data} <br/> ₹ 3,200</span>} className={styled.tab}/>
                         )
                       })}
                     </Tabs>
@@ -910,7 +910,7 @@ const AfterFlightsSearch = () => {
                                       <TabList
                                         onChange={handlechange1}
                                         sx={{
-                                          background: "#DFF3FF",
+                                          background:styles.shade_color,
                                           borderRadius: "1rem",
                                           width: "100%",
                                         }}

@@ -607,7 +607,7 @@ const Filters = (props) => {
                           sx={{
                             color: styles.app_color,
                             "&.Mui-checked": {
-                              color: styles.app_color,
+                              color: styles.textcolor,
                             },
                           }}
                           checked={checkedValues.includes(item)}
@@ -625,7 +625,7 @@ const Filters = (props) => {
                 disableRipple
                 variant="contained"
                 sx={{
-                  backgroundColor: `${styles.app_color}!important`,
+                  background: `${styles.app_color}!important`,
                   color: "#ffff",
                   textTransform: "none",
                   marginBottom: "2rem",
@@ -651,13 +651,13 @@ const Filters = (props) => {
                 label="Outbound"
                 value="1"
                 className={`${aftersearc.boundtabbtns} textcolo`}
-                sx={{ color: styles.app_color }}
+                sx={{ color: styles.textcolor }}
               />
               <Tab
                 label="Inbound"
                 value="2"
                 className={`${aftersearc.boundtabbtns} textcolo`}
-                sx={{ color: styles.app_color }}
+                sx={{ color: styles.textcolor }}
               />
             </TabList>
             <TabPanel value="1">
@@ -811,7 +811,7 @@ const Filters = (props) => {
                               sx={{
                                 color: styles.app_color,
                                 "&.Mui-checked": {
-                                  color: styles.app_color,
+                                  color: styles.textcolor,
                                 },
                               }}
                               checked={oubound_checked.includes(item)}
@@ -829,7 +829,7 @@ const Filters = (props) => {
                     disableRipple
                     variant="contained"
                     sx={{
-                      backgroundColor: `${styles.app_color}!important`,
+                      background: `${styles.app_color}!important`,
                       color: "#ffff",
                       textTransform: "none",
                       padding: "0.5rem 3.5rem",

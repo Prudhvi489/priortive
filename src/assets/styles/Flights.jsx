@@ -708,7 +708,7 @@ export const aftersearch = makeStyles({
   },
   pricetoggle: {
     backgroundColor: `${styles.shade_color}!important`,
-    color: `${styles.textcolor}!important`,
+    color: `#2a2a2a!important`,
     textTransform: "none!important",
     fontFamily: "poppins!important",
     borderRadius: "0.5rem!important",
@@ -740,7 +740,7 @@ export const aftersearch = makeStyles({
     padding: "8px 15px",
     borderRadius: "0.5rem",
     color: maincolor,
-    background: "#DFF3FF",
+    background: styles.shade_color,
     fontSize: subheading2,
   },
   stopsbtnFilterSelected: {
@@ -749,7 +749,7 @@ export const aftersearch = makeStyles({
   },
   departurebtns: {
     border: "none",
-    background: "#DFF3FF",
+    background: styles.shade_color,
     padding: "0.7rem 0.5rem",
     color: styles.app_color,
     borderRadius: "0.5rem",
@@ -767,7 +767,7 @@ export const aftersearch = makeStyles({
   },
   departurenitbtn: {
     border: "none",
-    background: "#DFF3FF",
+    background: styles.shade_color,
     padding: "0.7rem 0.5rem",
     color: styles.app_color,
     borderRadius: "0.5rem",
@@ -779,11 +779,11 @@ export const aftersearch = makeStyles({
     minHeight: "1rem!important",
     width: "11.3rem",
     borderRadius: "0.5rem",
-    color: `${styles.app_color}!important`,
+    color: `${styles.textcolor}!important`,
     boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.25)",
     "& .MuiTab-root.Mui-selected": {
       color: "White",
-      backgroundColor: maincolor,
+      background: maincolor,
       borderRadius: "0.5rem",
       padding: "2px 5px 2px 5px",
     },
@@ -818,7 +818,7 @@ export const aftersearchflights = makeStyles({
     },
   },
   searchbtn: {
-    backgroundColor: `${styles.app_color}!important`,
+    background: `${styles.app_color}!important`,
     borderRadius: "0.5rem",
     textTransform: 'none!important',
   },
@@ -906,7 +906,7 @@ export const aftersearchflights = makeStyles({
   },
   booknow: {
     background: styles.app_color,
-    border: `1px solid ${styles.app_color}`,
+    border: `1px solid ${styles.textcolor}`,
     color: "#ffff",
     padding: "1rem 3.1rem 1.1rem 2.4rem",
     borderBottomRightRadius: "0.8rem",
@@ -923,7 +923,7 @@ export const aftersearchflights = makeStyles({
 
     // marginLeft: "1.5rem!important",
     padding: "0rem!important",
-    color: `${styles.app_color}!important`,
+    color: `${styles.textcolor}!important`,
     fontSize: "12px",
     width: "200px",
     textTransform: "none!important",
@@ -956,7 +956,7 @@ export const aftersearchflights = makeStyles({
   },
   // Baggage information
   baggage: {
-    background: "#EDF5FA!important",
+    background: `${styles.shade_color}!important`,
     padding: "0.5rem 2rem",
     marginTop: "1rem!important",
     borderRadius: "1rem",
@@ -1000,7 +1000,7 @@ export const booknow = makeStyles({
     paddingLeft: "1.5rem",
     paddingTop: "1rem",
     "& .MuiTab-root:not(.Mui-selected)": {
-      backgroundColor: "#DFF3FF",
+      backgroundColor: styles.shade_color,
       color: styles.app_color,
       borderRadius: "0.5rem",
       height: "40px",
@@ -1009,7 +1009,7 @@ export const booknow = makeStyles({
     },
     "& .MuiTab-root.Mui-selected": {
       color: "White",
-      backgroundColor: maincolor,
+      background: maincolor,
       borderRadius: "0.5rem ",
       height: "40px",
       minHeight: "40px",
@@ -1059,7 +1059,7 @@ export const ticketbooking = makeStyles({
     padding: "0.5rem 1rem!important",
   },
   refunddetails: {
-    backgroundColor: "#EDF5FA!important",
+    backgroundColor: `${styles.shade_color}!important`,
     padding: "1rem!important",
     borderRadius: "1rem!important",
     '@media (max-width:899px)': {
@@ -1102,8 +1102,8 @@ export const ticketbooking = makeStyles({
     fontWeight: "500!important",
   },
   savedetailsbtn: {
-    borderColor: `${maincolor}!important`,
-    color: `${maincolor}!important`,
+    borderColor: `${styles.textcolor}!important`,
+    color: `${styles.textcolor}!important`,
     textTransform: "none!important",
     fontWeight: "500!important",
     fontFamily: '"Poppins", sans-serif !important',
@@ -1170,8 +1170,8 @@ export const ticketbooking = makeStyles({
   nextbtn: { backgroundColor: `${styles.app_color}!important`, textTransform: "none" },
   titlebtns: {
     padding: "0.3rem 1rem!important",
-    background: "#EEF7FD!important",
-    color: `${styles.app_color}!important`,
+    background: `${styles.shade_color}!important`,
+    color: `${styles.textcolor}!important`,
     border: "none!important",
     borderRadius: "0.5rem!important",
     marginLeft: '1rem!important',
@@ -1188,7 +1188,7 @@ export const ticketbooking = makeStyles({
     },
   },
   seat_blue: {
-    backgroundColor:`${styles.app_color}!important`
+    background:`${styles.app_color}!important`
   },
   removeCoupoun: {
     border: `1px solid ${maincolor}`,
@@ -1347,7 +1347,7 @@ export const Roundtripstyles = makeStyles({
   tabs: {
     "& .MuiTab-root.Mui-selected": {
       color: "White",
-      backgroundColor: maincolor,
+      background: maincolor,
       // borderRadius: "0.5rem",
       padding: "2px 5px 2px 5px",
     },
@@ -1559,14 +1559,14 @@ export const multicitystyles = makeStyles({
   detailstab: {
     // marginLeft:'1rem',
     "& .MuiTab-root:not(.Mui-selected)": {
-      backgroundColor: "#DFF3FF",
+      backgroundColor: styles.shade_color,
       color: styles.app_color,
       borderRadius: "0.5rem",
       padding: "2px 5px",
     },
     "& .MuiTab-root.Mui-selected": {
       color: "White",
-      backgroundColor: maincolor,
+      background: maincolor,
       borderRadius: "0.5rem",
       padding: "2px 5px 2px 5px",
     },
@@ -1586,8 +1586,8 @@ export const multicitystyles = makeStyles({
     fontWeight: 500,
   },
   booknow: {
-    background: styles.app_color,
-    border: `1px solid ${styles.app_color}`,
+    background:styles.app_color,
+    border: `1px solid ${styles.textcolor}`,
     color: "#ffff",
     padding: "1rem 2.6rem 1rem 2rem",
     borderBottomRightRadius: "0.8rem",

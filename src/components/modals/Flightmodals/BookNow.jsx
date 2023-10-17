@@ -223,10 +223,10 @@ const handleBackButton=async()=>{
                   return(
                     <Grid item xs={12} md={6}>
                     <Grid container direction={'column'} rowSpacing={1} >
-                      <div className={book.offerscard} id={`${flight.ResultIndex}_x`} style={{backgroundColor:index===0&&styles.app_color,color:index===0 && 'White'}} onClick={()=>selectpackage(index,flight.ResultIndex)}>
+                      <div className={book.offerscard} id={`${flight.ResultIndex}_x`} style={{background:index===0&&styles.app_color,color:index===0 && 'White'}} onClick={()=>selectpackage(index,flight.ResultIndex)}>
                         {/* onClick={()=>selectpackage(index,flight.ResultIndex)} */}
                       <Grid item>
-                        <Grid container style={{color:document.getElementById(`${flight.ResultIndex}_x`)?.style.backgroundColor=="rgb(0, 53, 86)"?'white':'rgba(0, 53, 86, 1)'}}>
+                        <Grid container style={{color:document.getElementById(`${flight.ResultIndex}_x`)?.style.backgroundColor==styles.shade_color?'white':'rgba(0, 53, 86, 1)'}}>
                           <Grid item xs={6} >
                             {faretype?.Type??""}
                           </Grid>

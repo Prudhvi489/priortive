@@ -29,14 +29,12 @@ import {
 import "../../../assets/styles/commonstyles.css";
 // Svg imports
 import information from "../../../assets/images/information.svg";
-import indigo from "../../../assets/images/indigo.svg";
 import plane from "../../../assets/images/plane.svg";
 import nonstop1 from "../../../assets/images/nonstop1.svg";
 import { makeStyles } from "@mui/styles";
 import refundpolicy from "../../../assets/images/Refundpolicy.svg";
 import downarrow from "../../../assets/images/downarrow.svg";
 import uparrow from "../../../assets/images/uparrow.svg";
-import indigoround from "../../../assets/images/indigoround.svg";
 import travelinsurance from "../../../assets/images/travelinsurance.svg";
 import correct from "../../../assets/images/correct.svg";
 import personblue from "../../../assets/images/personblue.svg";
@@ -91,7 +89,7 @@ import {styles} from '../../../assets/styles/Styles_export.jsx'
 const ToggleButton = styled(MuiToggleButton)(({ selectedColor }) => ({
   "&.Mui-selected, &.Mui-selected:hover": {
     color: "white!important",
-    backgroundColor: `${styles.app_color}!important`,
+    background: `${styles.app_color}!important`,
   },
 }));
 const useStyles = makeStyles((theme) => ({
@@ -4369,7 +4367,7 @@ const FlightBooking = () => {
                                     sx={{
                                       color: "white",
                                       "&, &.Mui-checked": {
-                                        color: "#303030",
+                                        color: styles.textcolor,
                                         fontSize: "14px",
                                         fontWeight: "400",
                                       },
@@ -4435,7 +4433,7 @@ const FlightBooking = () => {
                                     sx={{
                                       color: "white",
                                       "&, &.Mui-checked": {
-                                        color: "#303030",
+                                        color: styles.textcolor,
                                         fontSize: "14px",
                                         fontWeight: "400",
                                       },
@@ -4501,8 +4499,8 @@ const FlightBooking = () => {
                                           value={1}
                                           sx={{
                                             padding: "0.3rem 1rem",
-                                            background: "#EEF7FD",
-                                            color:  styles.app_color,
+                                            background:styles.shade_color,
+                                            color:  styles.textcolor,
                                             border: "none",
                                             borderRadius: "0.5rem!important",
                                             width: "4rem",

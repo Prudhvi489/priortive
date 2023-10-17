@@ -849,7 +849,7 @@ const Roundtrip = () => {
                                             className={roundtrip.tabs}
                                             sx={{
                                               backgroundColor:
-                                                "#DFF3FF!important",
+                                                `${styles.shade_color}!important`,
                                               minHeight: "2rem",
                                               height: "3rem",
                                               borderRadius: "0.5rem",
@@ -1215,7 +1215,7 @@ const Roundtrip = () => {
                                             <Stack
                                               spacing={1.5}
                                               sx={{
-                                                backgroundColor: "#EDF5FA",
+                                                backgroundColor: styles.shade_color,
                                                 padding: "1rem",
                                                 borderRadius: "0.5rem",
                                               }}
@@ -2027,7 +2027,7 @@ const Roundtrip = () => {
                                             className={roundtrip.tabs}
                                             sx={{
                                               backgroundColor:
-                                                "#DFF3FF!important",
+                                                `${styles.shade_color}!important`,
                                               minHeight: "2rem",
                                               height: "3rem",
                                               borderRadius: "0.5rem",
@@ -2451,7 +2451,7 @@ const Roundtrip = () => {
                                             <Stack
                                               spacing={1.5}
                                               sx={{
-                                                backgroundColor: "#EDF5FA",
+                                                backgroundColor: styles.shade_color,
                                                 padding: "1rem",
                                                 borderRadius: "0.5rem",
                                               }}

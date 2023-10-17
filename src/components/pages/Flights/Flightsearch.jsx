@@ -1599,7 +1599,7 @@ const Flightsearch = () => {
                                         direction="row"
                                         spacing={1}
                                         sx={{
-                                          border: `1px solid ${ styles.app_color}`,
+                                          border: `1px solid ${ styles.textcolor}`,
                                           padding: "0.5rem 0.8rem",
                                           borderRadius: "0.5rem",
                                         }}
@@ -1608,7 +1608,7 @@ const Flightsearch = () => {
                                         <img src={add} alt="add" />
                                         <span
                                           style={{
-                                            color:  styles.app_color,
+                                            color:styles.textcolor,
                                             fontSize: "14px",
                                             fontWeight: "600",
                                           }}
@@ -1791,7 +1791,7 @@ const Flightsearch = () => {
                                           direction="row"
                                           spacing={1}
                                           sx={{
-                                            border: `1px solid ${ styles.app_color}`,
+                                            border: `1px solid ${ styles.textcolor}`,
                                             padding: "0.5rem 0.8rem",
                                             borderRadius: "0.5rem",
                                           }}
@@ -1800,7 +1800,7 @@ const Flightsearch = () => {
                                           <img src={add} alt="add" />
                                           <span
                                             style={{
-                                              color:  styles.app_color,
+                                              color:  styles.textcolor,
                                               fontSize: "14px",
                                               fontWeight: "600",
                                             }}
@@ -1826,7 +1826,7 @@ const Flightsearch = () => {
                                           alignItems="center"
                                           spacing={1}
                                           sx={{
-                                            border: `1px solid ${ styles.app_color}`,
+                                            border: `1px solid ${ styles.textcolor}`,
                                             padding: "0.5rem 0.8rem",
                                             borderRadius: "0.5rem",
                                             borderColor: "#D02626",
@@ -2020,7 +2020,7 @@ const Flightsearch = () => {
                                           onClick={addcity}
                                           spacing={1}
                                           sx={{
-                                            border: `1px solid ${ styles.app_color}`,
+                                            border: `1px solid ${ styles.textcolor}`,
                                             padding: "0.5rem 0.8rem",
                                             borderRadius: "0.5rem",
                                           }}
@@ -2028,7 +2028,7 @@ const Flightsearch = () => {
                                           <img src={add} alt="add" />
                                           <span
                                             style={{
-                                              color: styles.app_color,
+                                              color: styles.textcolor,
                                               fontSize: "14px",
                                               fontWeight: "600",
                                             }}
@@ -2047,7 +2047,7 @@ const Flightsearch = () => {
                                           alignItems="center"
                                           spacing={1}
                                           sx={{
-                                            border: `1px solid ${ styles.app_color}`,
+                                            border: `1px solid ${ styles.textcolor}`,
                                             padding: "0.5rem 0.8rem",
                                             borderRadius: "0.5rem",
                                             borderColor: "#D02626",
@@ -2238,7 +2238,7 @@ const Flightsearch = () => {
                                         alignItems="center"
                                         spacing={1}
                                         sx={{
-                                          border: `1px solid ${ styles.app_color}`,
+                                          border: `1px solid ${ styles.textcolor}`,
                                           padding: "0.5rem 0.8rem",
                                           borderRadius: "0.5rem",
                                           borderColor: "#D02626",
