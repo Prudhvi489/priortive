@@ -1,0 +1,11 @@
+version: '3'
+services:
+  gmt_container:
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    image: prudhvisai489/gmtfiles
+    ports:
+        - "3000:3000"
+    volumes:
+        - .:/usr/gomytrip
